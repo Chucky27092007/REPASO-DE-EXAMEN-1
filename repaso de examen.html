@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Mi Página Personal</title>
+</head>
+<body>
+    <h1>¡Bienvenidos a mi página personal!</h1>
+    <p>Hola, soy Vicki. Esta es una página sencilla hecha en HTML como parte de la consigna.</p>
+
+    <!-- Listas -->
+    <h2>Listas</h2>
+    <h3>Materias favoritas</h3>
+    <ol>
+        <li>Matemática</li>
+        <li>Audiovisual</li>
+        <li>Fisica</li>
+    </ol>
+
+    <h3>Comidas que me gustan</h3>
+    <ul>
+        <li>Milanesas con pure</li>
+        <li>Roles de canela</li>
+        <li>Tacos</li>
+    </ul>
+
+    <h3>Lenguajes de programación</h3>
+    <ul>
+        <li>Frontend
+            <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+            </ul>
+        </li>
+        <li>Backend
+            <ul>
+                <li>Python</li>
+                <li>Java</li>
+                <li>PHP</li>
+            </ul>
+        </li>
+    </ul>
+
+    <table>
+    <table border="1" cellpadding="5">
+        <tr>
+            <td>Nombre</td>
+            <td>Edad</td>
+            <td>Hobby</td>
+        </tr>
+        <tr>
+            <td>Vicki</td>
+            <td>17</td>
+            <td>dibujar</td>
+        </tr>
+        <tr>
+            <td>Benjamin</td>
+            <td>17</td>
+            <td>Rugby</td>
+        </tr>
+    </table>
+
+    <!-- Formulario --> <h2>Formulario de contacto</h2> 
+     <form action="#" method="post"> 
+        <label for="nombre">Nombre:</label>
+        <br> 
+         <input type="text" id="nombre" name="nombre"><br><br>
+          <label for="email">Email:</label><br>
+           <input type="email" id="email" name="email"><br><br>
+            <label for="rol">Rol:</label><br>
+             <select id="rol" name="rol">
+                 <option value="estudiante">Estudiante</option>
+                 <option value="profesor">Profesor</option>
+                 <option value="invitado">Invitado</option>
+                 </select><br><br>
+                  <button type="submit">Enviar</button>
+     </form>
+
+</body>
+</html>
